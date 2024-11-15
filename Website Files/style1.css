@@ -1,0 +1,41 @@
+body {
+    background-color: #E6E6FA; /* Lavender color */
+    background-image: url('https://replicate.delivery/pbxt/6La7VrrnerWEA60bsin57pyjM1iCrYMcM1p5HWBy3VapcU1JA/output.gif');
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: #4B0082; /* Darker lavender for text */
+}
+
+header, footer {
+    background-color: rgba(221, 160, 221, 0.8); /* Lavender background */
+    padding: 20px;
+}
+
+button {
+    background-color: #B968BA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4B0082;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 55%;
+	padding: 15px;
+}
+.logo a {
+    display: block; 
+    width: 100px; 
+    height: auto; 
+    text-decoration: none; 
+  }
+  .highlight {/* Use of classes */
+    background-color: rgba(221, 160, 221, 0.8);
+    font-weight: bold;
+}

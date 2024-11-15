@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Naturopathic Centre of Health</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header> 
+        <div class="wrapper">
+            <div class="logo">
+              <a href="index.html"><!--Anchor Tag used on logo to take user back to homepage-->
+                <img alt="" src="C:\Users\sadeb\OneDrive\Desktop\ASc MIS\AMIS2\AMIS2 - Courses - Semester 1 2024\Web Development I\Website Files\heart-7679024_1280.webp">
+              </a>
+            </div>
+          </div>
+    <br><h1>Contact Us</h1>
+    </header>
+    <main>
+        <div class="header"><!--Inserting Images in a webpage with Alternate Text -->
+            <br><img src="https://img-cdn.pixlr.com/image-generator/history/671cccd353db3624ef47c89a/bdcde084-4799-499c-ada2-5c3a655e8cc0/preview.webp"
+            float= "left" height="280" width="365" alt="Reach out to us." 
+        >
+        </div>
+        <h2>&hearts; We'd Love to Hear From You &hearts;</h2>
+        <p>Whether you have questions, feedback, or need assistance, please reach out to us using the form below.</p>
+        
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <address>
+            <br><strong>&hearts;Our Contact Information&hearts;</strong><br>
+            777 Cherry Blossom Lane<br>
+            HighLand, Nation<br>
+            <a href="mailto:NCH@zenmail.com">NCH@zenmail.com</a><br>
+            <a href="tel:+7773330312">(777) 333-0312</a>
+          </address><!--use of <address> HTML5 Semantic Element -->
+    </main><br>
+    <footer>
+        &copy; 2024 Naturopathic Centre of Health
+    </footer>
+</body>
+</html>
